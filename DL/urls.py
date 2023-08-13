@@ -20,5 +20,5 @@ from DLApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.input_view, name='input_view')
+    path('view', views.input_view, name='input_view')
 ]
